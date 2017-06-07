@@ -16,4 +16,8 @@ public class SkillfulSeller extends AbstractSeller {
     public void drink() {
         System.out.println("I never drink but I have some drugs");
     }
+    @Override
+    public String time() {
+        return "1 minute";
+    }
 }

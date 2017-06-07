@@ -30,6 +30,8 @@ public class Application implements Runnable {
             Citrus.getSalary();
         for(int i=0; i<11; i++)
             Citrus.sell();
+        for (int i=0; i<13; i++)
+            Citrus.getTime();
         for(int i=0; i<15; i++)
             Citrus.steal();
         for (int i=0; i<12; i++)

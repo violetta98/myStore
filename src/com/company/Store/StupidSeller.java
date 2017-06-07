@@ -16,4 +16,8 @@ public class StupidSeller extends AbstractSeller {
     public void drink() {
         System.out.println("I drink 5 times in week :)");
     }
+    @Override
+    public String time() {
+        return "20 minutes";
+    }
 }

@@ -47,4 +47,8 @@ public class Store {
         for (Customer c : customers)
             c.complain();
     }
+    public void getTime() {
+        for (Seller s: sellers)
+            System.out.println("Time of this seller is "+s.time());
+    }
 }

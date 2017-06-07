@@ -8,4 +8,5 @@ public interface Seller {
     void getSalary();
     void sell();
     void steal();
+    String time();
 }
